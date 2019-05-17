@@ -1,0 +1,22 @@
+{
+  "name": "quwars",
+  "version": "1.0.0",
+  "description": "A simple API REST with Node.js + Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AivanGuevara/Qu-Wars.git"
+  },
+  "author": "IvanG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AivanGuevara/Qu-Wars/issues"
+  },
+  "homepage": "https://github.com/AivanGuevara/Qu-Wars#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

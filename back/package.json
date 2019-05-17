@@ -1,7 +1,7 @@
 {
-  "name": "quwars",
+  "name": "back",
   "version": "1.0.0",
-  "description": "A simple API REST with Node.js + Vue.js",
+  "description": "Backend for QU-Wars",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/AivanGuevara/Qu-Wars#readme",
   "dependencies": {
-    "npm": "^6.9.0",
-    "vue": "^2.6.10"
+    "express": "^4.17.0",
+    "swapi-node": "^0.4.4"
   }
 }

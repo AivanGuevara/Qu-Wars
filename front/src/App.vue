@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Dropdown/>
+    <CardGroup/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Dropdown from './components/Dropdown.vue'
+import CardGroup from './components/CardGroup.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Dropdown,
+    CardGroup
   }
 }
 </script>

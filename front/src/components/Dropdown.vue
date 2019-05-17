@@ -1,8 +1,8 @@
 <template>
     <div>
-    <b-dropdown id="dropdown-1" text="Order for characters" class="m-md-2">
-        <b-dropdown-item>First Action</b-dropdown-item>
-        <b-dropdown-item>Second Action</b-dropdown-item>
+    <b-dropdown id="dropdown-1" text="Planets ordered" class="m-md-2">
+        <b-dropdown-item>Planets</b-dropdown-item>
+        <b-dropdown-item>Characters</b-dropdown-item>
         <b-dropdown-item>Third Action</b-dropdown-item>
     </b-dropdown>
     </div>    

@@ -19,5 +19,8 @@
   "dependencies": {
     "express": "^4.17.0",
     "swapi-node": "^0.4.4"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
   }
 }

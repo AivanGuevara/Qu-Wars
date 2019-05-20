@@ -1,14 +1,10 @@
-const URL =  'http://localhost:3000'
+const URL =  'http://localhost:3000/'
 
 export default {
    async getPlanets() {
-        let planets = []
-        let data = await fetch(URL, { 'Access-Control-Allow-Credentials': '*' }).then((result) => { return result })
-        console.log(data)
-        data.results.map((result) => {
-            planets.push(Object.create({title: result.name, rotation_period: result.rotation_period, diameter: result.diameter}))
-        })
-        return planets;
+        let response = await fetch(URL)
+        let data = await response.json()
+        return data
     }
 
 }

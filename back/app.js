@@ -9,8 +9,6 @@ const func = async function(req, res) {
   })
   res.json(planets)
 }
-app.get('/', (req, res) => res.send('Star Wars rocks!'))
-
-app.get('/planets', func) 
+app.get('/', func)
 
 app.listen(port, () => console.log(`Listening in port ${port}`))

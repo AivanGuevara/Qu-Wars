@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-card no-body class="overflow-hidden" style="max-width: 540px;">
+  <b-card no-body class="overflow-hidden" style="max-width: 300px;">
     <b-row no-gutters>
       <b-col md="6">
         <b-card-body :title="title">
@@ -21,7 +21,7 @@ export default {
     props: {
        title: String,
        rotation_period: String,
-       diameter: String
+       diameter: Number
     }
 }
 </script>

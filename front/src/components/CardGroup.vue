@@ -9,34 +9,14 @@
 </template>
 <script>
 import Card from './Card.vue'
-import planet from '../api/planets'
-
-var mixin = {
-    methods: {
-        getPlanets: planet.getPlanets
-    }
-}
 
 export default {
     name: 'CardGroup',
-    mixins: [mixin],
     components: {
         Card
     },
-    data() {
-        return {
-            items: null
-        }
-    },
-    mounted() {
-       let self = this
-       this.getPlanets().then(function(value){
-            let planets = []
-            value.results.map((result) => {
-                planets.push({title: result.name, rotation_period: result.rotation_period, diameter: result.diameter})
-            });
-            self.items = planets;
-       })
+    props: {
+        items: Array
     }
   
 }
